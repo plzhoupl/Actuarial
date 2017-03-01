@@ -1,0 +1,632 @@
+﻿@charset "UTF-8";
+html {
+    font-size: 14px;
+    font-family: Microsoft YaHei;
+}
+body{
+    color: #7d7d7d;
+}
+h1, h2, h3, h4, h5, h6, strong {
+    font-weight: normal;
+}
+
+a {
+    /*color: #7a13d2;*/
+    text-decoration: none;
+    cursor: pointer;
+}
+
+a:hover {
+    /*color: #7a13d2;*/
+    /*text-decoration: underline;*/
+}
+.container {
+    position: relative;
+    margin: 0 auto;
+    width: 1200px;
+    padding: 0;
+}
+/*导航栏头部   ======开始*/
+.nav-top{
+    height: 40px;
+    color: #fff;
+    background-color: #006835;
+}
+.nav-top ul li{
+    line-height: 40px;
+}
+.nav-top ul li a{
+    color: #ffffff;
+}
+.nav-top ul li a:hover{
+    text-decoration: underline;
+}
+/*导航栏头部   ======结束*/
+/*导航栏   ======开始*/
+.nav-header{
+    margin: 10px;
+}
+.nav-header ul li{
+    margin-left: 110px;
+}
+.nav-header ul li a{
+    color: #7d7d7d;
+    height: 60px;
+    line-height:60px;
+}
+.nav-header ul li a:hover{
+    padding-bottom: 3px;
+    border-bottom: 4px #006835 solid;
+}
+.nav-header ul li a.active{
+    padding-bottom: 3px;
+    border-bottom: 4px #006835 solid;
+}
+/*导航栏   ======结束*/
+/*页脚   ======开始*/
+.nav-footer{
+    color: #ffffff;
+    background-color: #1a1a1a;
+    padding: 15px 0 35px;
+}
+.nav-footer ul li{
+    padding-top: 15px;
+}
+/*页脚   ======结束*/
+/*hr线条*/
+.hr_bg{
+    border: none;
+    background-color: #c9c9c9;
+    height: 1px;
+}
+/*联盟秘书部   =====开始*/
+.depart_content{
+    color: #434343;
+    padding: 30px 50px 40px;
+    margin: 35px 0 40px;
+    border: 1px #c9c9c9 solid;
+}
+
+.depart_content hr{
+    border: none;
+    border-top: 1px dashed #c9c9c9;
+    height: 1px;
+    margin-top: 35px;
+}
+.depart_content table{
+    margin-top: 40px;
+}
+.depart_content table thead{
+    font-weight: bold;
+    text-align: left;
+}
+.depart_content table tr td,.depart_content table tr th{
+    width: 27%;
+    height: 24px;
+    line-height: 24px;
+}
+/*联盟秘书部   =====结束*/
+/*关于联盟======开始*/
+.about-all,.message-all {
+    margin-top: 35px;
+    padding-bottom: 50px;
+    overflow: hidden;
+}
+.left-nav{
+    width: 215px;
+    float: left;
+    background: #fff;
+    overflow: hidden;
+}
+.message-all .message-left{
+    width: 186px;
+    background: url("../images/message_left.jpg") repeat-y;
+    overflow: hidden;
+}
+.left-nav ul,.message-all .message-left ul{
+    border: 1px solid #c9c9c9;
+    padding-top: 10px;
+}
+.message-all .message-left ul{
+    padding-top: 40px;
+}
+.left-nav ul h3{
+    height: 46px;
+    line-height: 46px;
+    margin:0 26px;
+    border-bottom: 1px dashed #c9c9c9;
+}
+.message-all .message-left ul h3{
+    color: #ffffff;
+    height: 46px;
+    line-height: 46px;
+    padding-left: 42px;
+    background-color: #015902;
+    border-bottom: 1px #A0A0A0 solid;
+}
+.left-nav li,.message-all .message-left ul li{
+    height: 46px;
+    padding-left: 30px;
+    position: relative;
+}
+.message-all .message-left ul li{
+    background-color: #EDEDED;
+    border-bottom: 1px #A0A0A0 solid;
+}
+.left-nav li a,.message-all .message-left ul li a{
+    color: #7d7d7d;
+    font-size: 18px;
+    line-height: 46px;
+    margin-left: 12px
+}
+.message-all .message-left ul li a{
+    color: #727272;
+}
+.left-nav li:hover{
+    background-color: #eeeeee;
+}
+.left-nav li:hover a{
+    color: #7d7d7d;
+}
+.left-nav li:first-child {
+    -moz-border-radius: 2px 2px 0 0;
+    -webkit-border-radius: 2px 2px 0 0;
+    border-radius: 2px 2px 0 0
+}
+
+.left-nav li:last-child {
+    -moz-border-radius: 0 0 2px 2px;
+    -webkit-border-radius: 0 0 2px 2px;
+    border-radius: 0 0 2px 2px;
+    margin: 0
+}
+
+.left-nav .active,.message-all .message-left .active{
+    z-index: 1;
+    background: url(../images/active.png) no-repeat 140px center;
+    background-color: #006835;
+}
+.message-all .message-left .active{
+    background: url(../images/active.png) no-repeat 160px center;
+}
+.message-all .message-left .active{
+    background-color: #015902;
+}
+.left-nav .active a,.message-all .message-left .active a{
+    color: #ffffff;
+}
+.about-right{
+    margin-left: 270px;
+}
+.about-right,.message-right{
+    min-height: 382px;
+    border: 1px solid #c9c9c9;
+    overflow: hidden;
+    background: #fff;
+    padding: 10px 40px 100px;
+}
+.message-right{
+    border: 2px #187817 solid;
+    border-left: none;
+    border-radius: 4px;
+}
+.about-right .tit {
+    color: #7d7d7d;
+    position: relative;
+    height: 40px;
+    line-height: 40px;
+    display: block;
+    border-bottom: 1px #CBCCCE dashed;
+    margin-bottom: 30px;
+}
+.about-right .tit i{
+    color: #3da06a;
+}
+.about-right>ul,.message-right>ul{
+    display:none;
+}
+.about-right>ul.active,.message-right>ul.active{
+    display:block;
+}
+
+.us-box li p {
+    color: #434343;
+    line-height: 26px;
+}
+
+#firm-box{
+    color: #434343;
+}
+
+#compete-box h2{
+    color: #434343;
+    height: 36px;
+    line-height: 36px;
+}
+/*关于联盟======结束*/
+/*联盟资讯  =====开始*/
+#news-box>li>div:not(:last-child){
+    border-bottom: 1px #c9c9c9 dashed;
+    padding-bottom: 40px;
+}
+
+#news-box>li>div h4{
+    color: #434343;
+    height: 50px;
+    line-height: 50px;
+}
+#news-box>li>div p:nth-child(3){
+    color: #a0a0a0;
+}
+/*联盟资讯  =====结束*/
+/*登录   =====开始*/
+#login{
+    background-color: #ffffff;
+    margin: 30px 0 40px;
+    border: 1px #c9c9c9 solid;
+    padding: 80px 250px;
+}
+#login #form>div{
+    margin: 30px 0;
+}
+#login div.login_content{
+    padding-left: 110px;
+}
+#login div.login_content input{
+    width: 310px;
+    height: 36px;
+    line-height: 36px;
+    padding-left: 40px;
+}
+#login div.login_content>span{
+    width: 28px;
+    display: inline-block;
+    margin-left: -348px;
+}
+#login div.login_content>span#user_logo{
+    margin-bottom: -6px;
+    height: 26px;
+    background: url("../images/icon.png") 0 0 no-repeat;
+}
+#login div.login_content>span#pwd_logo{
+    height: 21px;
+    background: url("../images/icon.png") 0 -38px no-repeat;
+}
+
+#login #form>div>a{
+    color: #7d7d7d;
+    margin-right: -62px;
+}
+#login #form>div>a:first-child+a{
+    margin-left: 270px;
+}
+#login #form>a{
+    display: block;
+    width: 350px;
+    height: 46px;
+    line-height: 46px;
+    color: #ffffff;
+    background-color: #006835;
+    margin-left: 210px;
+}
+/*登录   =====结束*/
+/*三个注册页面头部公用部分*/
+.point {
+    background: url(../images/mask-bg.png) -2px -5px no-repeat;
+    position: relative;
+    height: 45px;
+}
+.point h2 {
+    font-size: 16px;
+    left: 25px;
+    width: 900px;
+    color: #fff;
+    height: 45px;
+    line-height: 45px;
+    position: absolute;
+    text-align: left
+}
+.progress {
+    height: auto;
+    overflow: hidden;
+    text-align: center;
+    margin: 40px 0 30px;
+}
+
+.progress span {
+    width: 320px;
+    height: 20px;
+    display: inline-block;
+    overflow: hidden;
+    text-align: center;
+    margin-left: -5px;
+    margin-top: 8px;
+}
+
+.progress p.top span {
+    background: url(../images/p02.jpg) no-repeat
+}
+
+.progress p.top span.active {
+    background: url(../images/p01.jpg) no-repeat
+}
+
+.progress p.bto span.active {
+    color: #000000;
+}
+.progress p.bto span>b{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+    color: #ffffff;
+    background-color: #a0a0a0;
+    border-radius: 50%;
+}
+.progress p.bto span.active>b{
+    background-color: #006800;
+}
+/*选择企业类型   =====开始*/
+.register,.message,.success_reg{
+    background-color: #ffffff;
+    padding-bottom: 40px;
+    margin: 40px 0;
+    border: 1px #c9c9c9 solid;
+}
+.register h3,.message h3{
+    height: 40px;
+    line-height: 40px;
+    border-bottom: 1px #c9c9c9 dashed;
+    margin: 20px 120px;
+}
+.register div input,.register div select{
+    width: 290px;
+    height: 26px;
+    line-height: 26px;
+    padding-left: 10px;
+    margin: 12px 0;
+}
+.register div>span{
+    color: #c9c9c9;
+    margin-left: 20px;
+}
+.register div label>i,.message div label>i,.message-right div label>i{
+    color: #e82633;
+}
+/*选择企业类型   =====结束*/
+/*填写注册信息   =====开始*/
+.message div>input,.message div>select,.message-right div>select,.message-right div>input{
+    width: 200px;
+    height: 26px;
+    line-height: 26px;
+    margin: 13px 0;
+}
+.message div select,.register div select,.message-right div select{
+    height: 32px;
+}
+.message>p{
+    color: #e82633;
+    text-indent: 9em;
+}
+.message-right p{
+    color: #e82633;
+    margin-top: 15px;
+}
+.message input[name='subBox'],.message input[name='sumBox'],.message input[name='supBox'],
+.message-right input[name='subBox'],.message-right input[name='sumBox'],.message-right input[name='supBox'],
+.message-right input[name='bubBox'],.message-right input[name='bumBox'],.message-right input[name='bupBox'],
+.all-member+div input[id='select_1']
+{
+    width: 20px;
+    height: 14px;
+    margin-top: 20px;
+}
+.message div>textarea{
+    margin-left: -20em;
+}
+.message-right div>textarea{
+    margin-top: -1em;
+}
+.message div>input[name='sel_radio'],.message-right div>input[name='sel_radio']{
+    width: 20px;
+    height: 14px;
+    margin-left: 25px;
+}
+.message>div>a.link-2{
+    display: inline-block;
+    color: #ffffff;
+    width: 240px;
+    height: 42px;
+    line-height: 42px;
+    border-radius: 4px;
+    text-align: center;
+    margin: 60px 0 80px;
+}
+.message>div>a.link-2:first-child+a{
+    margin-left: 50px;
+    background-color: #c9c9c9;
+}
+.message>div>a.link-2:first-child{
+    background-color: #006835;
+}
+.message>div>input.birthDatebg,.message-right div>input.birthDatebg{
+    border: 1px #C9C9C9 solid;
+    background: url('../images/birthday.png') no-repeat 168px center;
+}
+/*填写注册信息   =====结束*/
+/*注册成功   ===开始*/
+.success_reg>div:first-child+div+div>i{
+    display: block;
+    width: 27px;
+    height: 43px;
+    background: url("../images/icon.png") -43px 0 no-repeat;
+    margin: 0 auto 20px;
+}
+.success_reg div>p.mb70{
+    margin-top: 45px;
+}
+.success_reg div>p.mb70>a{
+    color: #7d7d7d;
+}
+/*注册成功   ===结束*/
+/*form开始*/
+.mask-box,.mask-box1 {
+    position: absolute;
+    width:1100px;
+    height:540px;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    background: #fff;
+    opacity: 1;
+    z-index: 1000;
+    resize: both;
+    overflow: auto;
+    text-align: center;
+    padding-bottom: 30px;
+}
+.mask-close {
+    position: absolute;
+    top: 16px;
+    right: 18px;
+    width: 10px;
+    line-height: 10px;
+    height: 10px;
+    cursor: pointer;
+    font-size: 16px;
+    color: #fff;
+    font-weight: 100;
+}
+.mask1,.mask2,.mask3,.mask4{
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 10001;
+    display: none;
+    background-color: #000;
+    -moz-opacity: .8;
+    filter: alpha(opacity=80);
+    background: rgba(0,0,0,0.7);
+}
+
+.mask {
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 10001;
+    background: rgba(0, 0, 0, .8);
+    display: none;
+}
+.mask4 .mask-box .page>p{
+    color: #363636;
+    text-align: left;
+    line-height: 26px;
+    margin:0 50px;
+}
+.mask4 .mask-box .page>h2{
+    color: #444444;
+}
+.mask4 .mask-box .page .point{
+    margin-bottom: 50px;
+}
+/*找回密码   =====开始*/
+#write,#set{
+    padding: 10px 0 50px;
+}
+#write>div,#set>div{
+    margin: 32px 0;
+}
+#write>div:first-child{
+    margin-left: 6em;
+}
+#write>div>input,#set>div>input{
+    width: 200px;
+    height: 26px;
+    line-height: 26px;
+}
+#write>div>a{
+    display: inline-block;
+    width: 110px;
+    height: 32px;
+    line-height: 32px;
+    color: #fff;
+    background-color: #D2D2D2;
+}
+#set>div:first-child{
+    margin-left: 1em;
+}
+.success_reg>img.find_pwd{
+    margin: 20px 14em 0 0;
+}
+/*找回密码   =====结束*/
+/*个人信息    ======开始*/
+.message-right h3{
+    height: 40px;
+    line-height: 40px;
+    border-bottom: 1px #c9c9c9 dashed;
+    margin-top: 10px;
+}
+.message-right div .hide_input1,.message-right div .hide_input2{
+    display: none;
+}
+/*个人信息    ======结束*/
+/*联盟会员查询   =====开始*/
+form.select-member{
+    padding-top: 40px;
+    margin-bottom: 160px;
+}
+form.select-member div:first-child+div{
+    margin-bottom: 20px;
+}
+form.select-member div>input.birthDatebg{
+    background: url(../images/birthday.png) no-repeat 90px center;
+}
+.all-member>table{
+    border:1px solid #C9C9C9;
+    color:#666;
+    empty-cells:show;
+    border-collapse: collapse;
+    margin-top: 30px;
+}
+.all-member>table>thead{
+    color: #ffffff;
+    background-color: #006838;
+}
+.all-member>table td,.all-member>table th{
+    padding:0 1em 0;
+}
+.all-member>table>thead>tr>th{
+    height:46px;
+    line-height: 46px;
+    white-space: nowrap;
+}
+.all-member>table td{
+    white-space: nowrap;
+    text-align: center;
+}
+.all-member>table tbody tr{
+    background-color:#f5fafe;
+    height:48px;
+    line-height: 48px;
+}
+.all-member>table tbody tr:nth-child(odd){
+    background-color: #F1EEEE;
+}
+.all-member>table tbody tr:nth-child(even){
+    background-color: #ffffff;
+}
+.all-member>table thead tr th{
+    width: 60px;
+}
+.account{
+    margin-top: 10px;
+    padding:0 20px 140px 20px;
+    border: 1px #c9c9c9 solid
+}
+/*联盟会员查询   =====结束*/

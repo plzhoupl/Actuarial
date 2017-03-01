@@ -1,0 +1,54 @@
+.pageTest{ width: 690px; height: 50px; margin-top: 88px;}
+.activP{
+  background-color: #006835!important;
+  color: #fff!important;
+}
+.pagingUl{
+  float:right;
+  padding:0;
+  margin:0;
+  list-style: none;
+}
+.pagingUl li{
+  float: left;
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  margin-left:10px;
+}
+.pagingUl li a{
+  text-decoration: none;
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  line-height: 28px;
+  padding: 0;
+  background: #F1F2F6;
+  color: #77787C;
+  font-size: 16px;
+  border: 1px solid #ddd;
+}
+
+.prv, .next {
+  width: 70px;
+  height: 30px;
+  float: left;
+  text-align: center;
+  line-height: 30px;
+  border: 1px solid #ddd;
+  cursor: pointer;
+  margin-left: 10px;
+  font-size: 14px;
+  color: #7d7d7d;
+}
+.first, .last {
+  width: 30px;
+  height: 30px;
+  font-size: 12px;
+  text-align: center;
+  line-height: 30px;
+  border: 1px solid #ddd;
+  cursor: pointer;
+}
